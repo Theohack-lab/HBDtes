@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surprise Ulang Tahun! 🎁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page" id="page">
+    <div class="sparkles" aria-hidden="true">✦　✧　✦　✧　✦</div>
+
+    <section class="intro" id="intro">
+      <p class="eyebrow">Noh buka</p>
+      <h1>Ada hadiah buat kamu!</h1>
+      <br><br><br>
+      <p class="hint">.</p>
+
+      <button class="gift" id="gift" type="button" aria-label="Buka hadiah">
+        <img class="gift-lid" id="giftLid" src="assets/tutup.png" alt="">
+        <img class="gift-body" src="assets/badan.png" alt="Kotak hadiah">
+      </button>
+      <p class="tap-note"></p>
+    </section>
+
+    <section class="reveal hidden" id="reveal" aria-live="polite">
+      <p class="eyebrow">SURPRISE!!!</p>
+      <h1>HAPPY BIRTHDAY CHIKA!</h1>
+      <div class="hamster-wrap">
+        <img class="hamster" src="assets/hamster.jpg" alt="Hamster lucu">
+      </div>
+      <p class="birthday-message">Semoga gk ketiduran lagi pas di ajak Tournament</p>
+      <p class="joke"></p>
+      <a class="rick-button" id="rickButton" href="https://youtu.be/dQw4w9WgXcQ?si=TTO3iqbbCBgQTAr0" target="_blank" rel="noopener noreferrer">KLIK DI SINI 💌</a>
+    </section>
+
+    <p class="footer">ide nya dari anu</p>
+  </main>
+
+  <div class="whiteout hidden" id="whiteout" aria-hidden="true"></div>
+  <audio id="clickSound" src="assets/click.mp3" preload="auto"></audio>
+  <audio id="popSound" src="assets/pop.mp3" preload="auto"></audio>
+  <audio id="music" src="assets/lagu.mp3" preload="auto" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
